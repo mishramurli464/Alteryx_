@@ -66,3 +66,17 @@ Use Unique to distinguish whether a data record is unique or a duplicate by grou
 ## 16) Sort
 is used to sort the fields(ascending/descending)
 
+## 17) Tile
+The Tile tool groups datasets by assigning a value (tile) based on ranges in the data. The Tile tool groups datasets using one of the following methods: Equal sum, Equal records, Smart tile, Unique value, and Manual tile
+TILE: CONFIGURATION OPTIONS
+Equal Records - each tile is assigned the same amount of rows
+Equal Sum - tiles with equal total values
+Smart Tile - tiles based on Standard Deviation of the values in the specified column
+Manual - user assigns tile rules manually
+Unique - creates tiles for unique values  
+
+## 18) Multi-Field Binning
+Use Multi-Field Binning to replicate some of the functionality of the Tile tool—additional features allow the data to be binned on multiple fields. 
+You can bin fields on either equal records or equal intervals.
+
+
