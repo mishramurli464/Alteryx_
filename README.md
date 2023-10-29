@@ -21,3 +21,48 @@ Use Create Samples to split the input records into 2 or 3 random samples. In the
 ## 6) Data Cleansing  
 Use Data Cleansing to fix common data quality issues. You can replace/remove null values, remove unwanted characters, modify capitalization/case.  
 
+## 7) Formula  
+Use Formula to create new columns, update columns, and use 1 or more expressions to perform a variety of calculations and operations. Go to Functions for a list of functions to use to create an expression. 
+The  Formula tool can  update multiple fields  per tool instance.
+
+## 8) Multi Row Formula  
+Use Multi-Row Formula to take the concept of the Formula tool a step further. This tool allows you to use row data as part of the formula creation and is useful for doing  mathematical calculations. 
+The Multi-Row Formula tool can only update one field per tool instance. If you would like to update multiple fields, you need to add a Multi-Row Formula tool for each field to be updated.  
+
+## 9) Multi Field Formula  
+It is quite similar to  formula tool but here we can update multiple fields of same type in a one go by using expressions.  
+
+## 10) Imputation
+Use Imputation to replace a specified value within one or more numeric data fields with another specified value.  
+
+## 11) Select
+Use Select to include, exclude, and reorder the columns of data that pass through your workflow. Excluding columns can limit the data that passes through a workflow and improve performance. You can also use the Select tool to modify the type and size of data, rename a column, add a description, and more.
+
+## 12) Select Records
+Use Select Records to return records and ranges of records that are specified, including discontinuous ranges of records. This tool is very useful for troubleshooting and sampling.
+
+*Configure the Tool*
+Ranges: Enter the records or range of records to return.
+A single digit returns only the entered row. For example, "3" returns only row 3.
+
+A minus sign before a number returns row 1 through the entered row. For example, "-2" returns rows 1 and 2.
+
+A range of numbers returns the rows in the range, including the entered rows. For example, "17-20" returns rows 17, 18, 19, and 20.
+
+A number followed by a plus sign returns the entered row through the last row. For example, "50+" returns row 50 through the last row.
+
+Any combination can be used at the same time by entering the numbers on a new line.  
+
+
+## 13) Generate Rows
+Use Generate Rows to create new rows of data at the record level. Use this tool to create a sequence of numbers, transactions, or dates.  
+
+## 14) Record ID
+Use Record ID to create a new column in the data and assign a unique identifier, that increments sequentially, for each record in the data. The Record ID tool generates unique identifiers with numeric values or string values, based on the data type you select.  
+
+## 15) Unique
+Use Unique to distinguish whether a data record is unique or a duplicate by grouping on one or more specified fields, then sorting on those fields.  
+
+## 16) Sort
+is used to sort the fields(ascending/descending)
+
