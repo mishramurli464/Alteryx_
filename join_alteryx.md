@@ -17,4 +17,7 @@ it also do the work of select tool.
 Use Union to combine 2 or more datasets on column names or positions. In the output, each column contains the rows from each input. You can configure how the columns stack or match up in the output.  
 
 # 6) Make Group
- is used to find the relationship between columns and grouping them accordingly.
+ is used to find the relationship between columns and grouping them accordingly.  
+ 
+ # 7) FUZZY MATCH
+ It is basically used to compare or identifying similar records in the datasets basically to clean the data and managig the errors.
